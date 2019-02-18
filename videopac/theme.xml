@@ -1,0 +1,61 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+      <image name="system-background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_inc/background.png</path>
+      </image>
+      <image name="system-genre" extra="true">
+         <origin>0 0</origin>
+         <pos>0.01 0.79</pos>
+         <size>0.08 0.14</size>
+         <tile>false</tile>
+         <path>./_inc/genre.png</path>
+      </image> 
+      <image name="system-info" extra="true">
+         <origin>0 0</origin>
+         <pos>0.0 0.0</pos>
+         <size>1.0 1.0</size>
+         <tile>false</tile>
+         <path>./_inc/text.png</path>
+      </image>                 	      		
+	</view>
+	<view name="basic, detailed, video">
+                <image name="background" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+				   <zIndex>1</zIndex>
+                   <path>./_inc/background.png</path>
+                </image>
+				<image name="background-top" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+				   <zIndex>3</zIndex>
+                   <path>./_inc/systemtop.png</path>
+                </image>
+				<image name="shade" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+				   <zIndex>2</zIndex>
+                   <path>./_inc/systemshade.png</path>
+                </image>
+				<image name="genre2" extra="true">
+                   <origin>0 0</origin>
+         		   <pos>0.935 0.441</pos>
+         		   <size>0.06 0.11</size>
+				   <zIndex>2</zIndex>
+                   <path>./_inc/genre.png</path>
+                </image>                
+	</view>
+</theme>

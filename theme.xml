@@ -1,0 +1,202 @@
+<!--
+theme name:     Unified
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">   
+   <view name="system">
+ <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0 0.0</pos>
+        <size>1 1</size>
+        <logoScale>1.35</logoScale>
+        <logoSize>0.165 0.22</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+ </carousel>
+      <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>0.39 0.948</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>f0ed00</color>
+         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+	     <fontSize>0.02</fontSize>
+         <zIndex>44</zIndex>	     
+      </text>      
+   </view>
+</feature>   
+
+   <view name="basic,detailed,video">
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_inc/images/background.png</path>
+      </image>
+      <textlist name="gamelist">
+         <pos>0.011 0.007</pos>
+         <size>0.55 0.35</size>
+	     <selectorColor>ffffff</selectorColor>
+	     <selectorImagePath>./_inc/images/icon.png</selectorImagePath>
+	     <selectedColor>f0ed00</selectedColor>
+	     <selectorHeight>.05</selectorHeight>
+         <primaryColor>ffffff</primaryColor>
+         <secondaryColor>ffffff</secondaryColor>
+         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontSize>0.047</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+	     <lineSpacing>1.20</lineSpacing>
+	     <horizontalMargin>0.037</horizontalMargin>         
+      </textlist>
+   </view>
+   <view name="system,basic,detailed,video">
+      <helpsystem name="help">
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+         <fontSize>0.02</fontSize> 
+         <pos>0.02 0.96</pos>
+         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>                                  
+      </helpsystem>  
+   </view>
+   <view name="basic">
+      <image name="logo">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.075</pos>
+         <maxSize>0.35 0.15</maxSize>
+      </image>
+   </view>
+
+   <view name="detailed,video">
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>FFFFFF</color>
+         <fontPath>./_inc/fonts/GROBOLD.ttf</fontPath>
+         <fontSize>0.023</fontSize>
+      </text>
+      <rating name="md_rating">
+         <pos>0.665 1.717</pos>
+         <size>0.13 0.05</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+         <zIndex>6</zIndex>         
+      </rating>
+      <text name="md_description">
+         <pos>0.01 0.395</pos>
+         <size>0.5 0.215</size>
+         <color>ffffff</color>
+         <fontSize>0.026</fontSize>         
+      </text>
+      <text name="md_lbl_players">
+         <pos>0.01 0.65</pos>
+         <size>0.1 0.025</size>
+         <color>f0ed00</color>         
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_players">
+         <pos>0.1 0.65</pos>
+         <size>0.13 0.025</size>
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_lbl_genre">
+         <pos>0.01 0.7</pos>
+         <size>0.1 0.025</size>
+         <color>f0ed00</color>         
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_genre">
+         <pos>0.1 0.7</pos>
+         <size>0.13 0.025</size>
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_lbl_developer">
+         <pos>0.01 0.75</pos>
+         <size>0.1 0.025</size>
+         <color>f0ed00</color>         
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_developer">
+         <pos>0.1 0.75</pos>
+         <size>0.13 0.025</size>
+         <zIndex>6</zIndex>         
+      </text> 
+      <text name="md_lbl_publisher">
+         <pos>0.01 0.8</pos>
+         <size>0.1 0.025</size>
+         <color>f0ed00</color>         
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_publisher">
+         <pos>0.1 0.8</pos>
+         <size>0.13 0.025</size>
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_lbl_lastplayed">
+         <pos>0.01 0.85</pos>
+         <size>0.1 0.025</size>
+         <color>f0ed00</color>         
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_lastplayed">
+         <pos>0.1 0.85</pos>
+         <size>0.13 0.025</size>
+         <zIndex>6</zIndex>         
+      </text> 
+      <text name="md_lbl_playcount">
+         <pos>0.01 0.9</pos>
+         <size>0.1 0.025</size>
+         <color>f0ed00</color>         
+         <zIndex>6</zIndex>         
+      </text>
+      <text name="md_playcount">
+         <pos>0.1 0.9</pos>
+         <size>0.13 0.025</size>
+         <zIndex>6</zIndex>         
+      </text>                                
+   </view>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.735 0.53</pos>
+         <zIndex>5</zIndex>
+         <maxSize>0.38 0.36</maxSize>
+      </image>
+	  <image name="md_marquee">
+         <origin>0.5 0.5</origin>
+         <pos>0.675 0.876</pos>
+         <zIndex>5</zIndex>
+         <maxSize>0.2 0.1</maxSize>
+      </image>
+   </view>
+
+   <view name="video">
+      <video name="md_video">
+         <origin>0.5 0.5</origin>
+         <pos>0.735 0.53</pos>
+         <zIndex>5</zIndex>
+         <maxSize>0.38 0.36</maxSize>
+      </video>
+	  <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.4 0.79</pos>
+         <zIndex>5</zIndex>
+         <maxSize>0.25 0.25</maxSize>
+      </image>      
+	  <image name="md_marquee">
+         <origin>0.5 0.5</origin>
+         <pos>0.675 0.876</pos>
+         <zIndex>5</zIndex>
+         <maxSize>0.2 0.1</maxSize>
+      </image>
+   </view>
+   
+</theme>
